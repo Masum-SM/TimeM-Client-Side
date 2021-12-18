@@ -1,6 +1,6 @@
 # TimeM Website
 
-Live Site Link: [Live Site Link](https://timem-6bf05.web.app/).
+[Live Site Link](https://timem-6bf05.web.app/).
 
 ## Description
 
@@ -8,7 +8,7 @@ This website is made for a specific product. A website has all the features it n
 
 ## Developer
 
-MD Unus Masum
+MD Unus Masum\
 LinkedIn : [@Masum](https://www.linkedin.com/in/unus-masum-82373a1b6/)
 
 ## Features of Website
@@ -30,18 +30,31 @@ LinkedIn : [@Masum](https://www.linkedin.com/in/unus-masum-82373a1b6/)
 
 ## Used Languages
 
-:small_orange_diamond: HTML
-:small_orange_diamond: CSS
+:small_orange_diamond: HTML\
+:small_orange_diamond: CSS\
 :small_orange_diamond: JavaScript
 
 ## Used Frameworks
 
-:small_orange_diamond: React Boostrap
-:small_orange_diamond: React-Router
-:small_orange_diamond: Font-Awasome
+:small_orange_diamond: React Boostrap\
+:small_orange_diamond: React-Router\
+:small_orange_diamond: Font-Awasome\
 
 ## sed Method
 
+:small_orange_diamond: Context api\
+:small_orange_diamond: Redirect\
+:small_orange_diamond: Firebase\
+:small_orange_diamond: Private Router\
+
 ## Database
 
+:small_orange_diamond: Mongodb\
+:small_orange_diamond: Node js\
+:small_orange_diamond: Express\
+:small_orange_diamond: CRUD Method\
+
 ## Deployement
+
+:small_orange_diamond: Firebase hosting\
+:small_orange_diamond: Heroku
