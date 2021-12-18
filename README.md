@@ -16,7 +16,6 @@ LinkedIn : [@Masum](https://www.linkedin.com/in/unus-masum-82373a1b6/)
 :heavy_check_mark: User and admin login register login with google log out process implemented.
 
 :heavy_check_mark:If a user orders a product, it will be stored in the database. If he wants, he can delete the order.
-:heavy_check_mark:
 
 :heavy_check_mark: Users need to login before ordering. Private route implemented.
 
@@ -45,14 +44,14 @@ LinkedIn : [@Masum](https://www.linkedin.com/in/unus-masum-82373a1b6/)
 :small_orange_diamond: Context api\
 :small_orange_diamond: Redirect\
 :small_orange_diamond: Firebase\
-:small_orange_diamond: Private Router\
+:small_orange_diamond: Private Router
 
 ## Database
 
 :small_orange_diamond: Mongodb\
 :small_orange_diamond: Node js\
 :small_orange_diamond: Express\
-:small_orange_diamond: CRUD Method\
+:small_orange_diamond: CRUD Method
 
 ## Deployement
 
