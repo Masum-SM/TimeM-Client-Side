@@ -1,0 +1,31 @@
+.contact-form input,
+textarea {
+  margin-bottom: 10px;
+  border: none;
+  background-color: whitesmoke;
+  box-shadow: 7px 7px 10px rgb(235, 235, 235), -7px -7px 10px rgb(138, 134, 134);
+  border-radius: 10px;
+}
+.img-body {
+  background-color: rgb(22, 2, 2);
+  box-shadow: 7px 7px 10px rgb(14, 10, 10), -7px -7px 10px rgb(59, 56, 56);
+  margin: 20px;
+}
+.contact-form {
+  background-color: whitesmoke;
+  box-shadow: 7px 7px 10px rgb(0, 0, 0);
+  padding: 20px;
+  margin: 10px;
+  padding-top: 7%;
+}
+.form-container {
+  background-color: gainsboro;
+  padding-top: 12%;
+}
+.send-mail {
+  color: #000000;
+  text-shadow: 2px 2px 4px #9f7a49;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 3px;
+}

@@ -139,7 +139,12 @@ const WatchHome = ({ watch }) => {
     );
   }
   return (
-    <div className="col">
+    <div
+      className="col"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <div className="card h-100 watch-card">
         <div className="overflow">
           <img className="img-style w-100" src={img1} alt="" />

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Spinner } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import swal from "sweetalert";
+import "./Login.css";
 import useFirebase from "../../Hooks/useFirebase";
 
 const Login = () => {
@@ -35,20 +35,25 @@ const Login = () => {
       <Link to="/">
         <img
           className="header-logo"
-          src="https://i.ibb.co/YWBTHwJ/makeup.png"
+          src="https://i.ibb.co/2vL4tSR/logo0-removebg-preview.png"
           alt=""
         />
       </Link>
-      <h2 className="banner-title">
-        Shades <span className="banner-span">Of</span> Love
+      <h2 className="web-name">
+        Time<span className="m">M</span>
       </h2>
+
+      <h5 className="banner-qutes">
+        FALL <span className="banner-span">IN</span> LOVE{" "}
+      </h5>
+      <h6 className="meaning">Redefining The Meaning Of Time</h6>
       <h5 className="banner-qutes">
         Please <span className="banner-span">Login</span>{" "}
       </h5>
       <div className="row">
         <div className="col-12">
           <img
-            className="login-img"
+            className="login-img w-50"
             src="https://i.ibb.co/MZ9kjPy/login.png"
             alt=""
           />
@@ -90,7 +95,7 @@ const Login = () => {
             <button
               onClick={handleGoogleSignIn}
               type="submit"
-              className="btn btn-info m-3 text-white"
+              className="btn google-btn m-3 text-white"
             >
               Google Sign In
             </button>
@@ -100,9 +105,6 @@ const Login = () => {
                 <span className="visually-hidden">Loading...</span>
               </Spinner>
             )}
-
-            {/* {user?.email &&
-             } */}
           </div>
         </div>
       </div>

@@ -93,7 +93,12 @@ const Banner = () => {
       />
       <div className="container">
         <div className="row row-cols-1 row-cols-md-2 g-4">
-          <div class="col pt-4">
+          <div
+            class="col pt-4"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <div class="card h-100 banner-card">
               <div class="card-body text-start">
                 <h5 class="card-title banner-titile">Fall In Love</h5>

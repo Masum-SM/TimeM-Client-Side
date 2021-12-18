@@ -37,13 +37,18 @@ const Register = () => {
       <Link to="/">
         <img
           className="header-logo"
-          src="https://i.ibb.co/YWBTHwJ/makeup.png"
+          src="https://i.ibb.co/2vL4tSR/logo0-removebg-preview.png"
           alt=""
         />
       </Link>
-      <h2 className="banner-title">
-        Shades <span className="banner-span">Of</span> Love
+      <h2 className="web-name">
+        Time<span className="m">M</span>
       </h2>
+
+      <h5 className="banner-qutes">
+        FALL <span className="banner-span">IN</span> LOVE{" "}
+      </h5>
+      <h6 className="meaning">Redefining The Meaning Of Time</h6>
 
       <h5 className="banner-qutes">
         If You Are New User Please <span className="banner-span">Register</span>{" "}
@@ -51,12 +56,12 @@ const Register = () => {
       <div className="row">
         <div className="col-12">
           <img
-            className="signin-img"
-            src="https://i.ibb.co/WW1tnpD/regis.png"
+            className="signin-img mt-5"
+            src="https://i.ibb.co/n3KQMbP/register.png"
             alt=""
           />
         </div>
-        <div className="col-12 login-form-container">
+        <div className="col-12 login-form-container regi-form-container mt-3">
           <div>
             <div className="login-frm">
               {!isLoading && (
