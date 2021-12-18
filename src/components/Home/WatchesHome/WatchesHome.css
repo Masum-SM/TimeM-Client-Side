@@ -1,0 +1,26 @@
+.watchesHeader {
+  max-width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  background: linear-gradient(rgba(5, 10, 6, 0.748), rgba(10, 26, 9, 0.733)),
+    url("https://i.ibb.co/F8DjZB3/watchback.jpg") fixed;
+}
+.watestitle {
+  color: rgb(99, 194, 3);
+  font-family: Courier;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+.watchHeadText {
+  color: white;
+  font-family: cursive;
+}
+.abot-slider {
+  color: #9f7a49;
+}
+@media only screen and (max-width: 600px) {
+  .watestitle {
+    font-size: 20px;
+  }
+}

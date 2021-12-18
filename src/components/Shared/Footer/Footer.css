@@ -1,0 +1,29 @@
+.footer-container {
+}
+.footer-bottom {
+  background-color: black;
+}
+.footer-icon {
+  color: #e0be92;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 30px;
+  border: 1px solid rgb(206, 189, 189);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.textbottom-color {
+  color: #e0be92;
+}
+.footer-icon:hover {
+  color: #dfdddd;
+  border: 1px solid rgb(255, 255, 255);
+}
+.footer-title {
+  color: wheat;
+}
+.footer-text {
+  color: white;
+  text-decoration: none;
+}

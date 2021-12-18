@@ -1,0 +1,106 @@
+.img-style {
+  transition: transform 1s;
+}
+.img-style:hover {
+  transform: scale(1.3);
+  cursor: zoom-in;
+}
+.overflow {
+  overflow: hidden;
+}
+.card-text {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rgb(240, 240, 240); */
+  padding: 20px 0;
+}
+.card-info {
+  color: white;
+  background-color: yellowgreen;
+  width: 50px;
+  height: 50px;
+  padding-top: 35%;
+  border-radius: 50%;
+}
+.card-add {
+  color: white;
+  background-color: #9f7a49;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  transition: transform 1.5s;
+  border-radius: 50%;
+}
+.watch-card {
+  background: no-repeat;
+  border: none;
+  box-shadow: 9px 9px 14px rgb(63, 61, 61);
+  transition: transform 1s;
+}
+
+.card-info:hover,
+.card-add:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: red;
+}
+/* .card-add:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+  color: red;
+} */
+.modal-img {
+  width: 70%;
+  box-shadow: 8px 8px 13px rgb(17, 14, 13), -8px -8px 13px rgb(20, 24, 11);
+  border-radius: 15px;
+}
+.accor-container {
+  background-color: black !important;
+  box-shadow: inset 8px 8px 13px rgb(82, 78, 77),
+    inset -8px -8px 13px rgb(61, 63, 55);
+}
+.accro-con {
+  border: none;
+
+  border: 5px solid #f3cb96;
+}
+.modal-btn {
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+.modal-title {
+  font-family: Courier;
+  color: #f3cb96;
+  text-shadow: 2px 2px 3px #352209;
+  font-weight: bolder;
+}
+.mod {
+  background-color: black;
+}
+.mod-title {
+  color: black;
+}
+.addcart-btn {
+  width: 120%;
+  margin: auto;
+  background-color: #f3cb96;
+  color: black;
+  border: none;
+  padding: 5px 0;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.modal-fooder {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.booking-btn {
+  border: none;
+  background: none;
+}
+.rating {
+  color: white;
+}

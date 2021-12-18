@@ -1,0 +1,6 @@
+.review-container {
+  background: linear-gradient(rgba(5, 10, 6, 0.748), rgba(10, 26, 9, 0.733)),
+    url("https://i.ibb.co/sbRVGyf/rw2.png") fixed;
+  margin-top: 30px;
+  padding: 25px 10px;
+}

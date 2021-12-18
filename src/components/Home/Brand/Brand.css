@@ -1,0 +1,16 @@
+.brand-container {
+  background-color: rgb(8, 8, 20);
+}
+.brand-title {
+  color: wheat;
+  font-family: Courier;
+  padding: 10px 0;
+  text-shadow: 2px 2px 3px #e0be92;
+}
+.brand-div {
+  color: #e7d9c8;
+  /* background-color: whitesmoke; */
+  margin: 25px;
+  padding: 8px 15px;
+  font-family: Geneva;
+}
